@@ -4,4 +4,4 @@ project(dnn_playground VERSION 0.1)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(dnn_playground
-        src/main.cpp)
+        src/main.cpp src/Neuron.h src/Neuron.cpp)
